@@ -1,0 +1,21 @@
+<mvc:View displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" controllerName="test.pages.Main">
+	<Shell>
+		<App id="app">
+			<Page title="UI5 Model Utilities Test">
+				<Panel headerText="Accessor Model">
+					<VBox>
+						<Text text="{accessorModel>/counter}"></Text>
+						<Button text="Increment" press="onIncrement"></Button>
+					</VBox>
+				</Panel>
+				<Panel headerText="Class Model">
+					<VBox>
+						<Input value="{class>/$content}" valueLiveUpdate="true"></Input>
+						<Text text="{class>/$content}"></Text>
+						<Text text="Changes: {class>/$changes}"></Text>
+					</VBox>
+				</Panel>
+			</Page>
+		</App>
+	</Shell>
+</mvc:View>

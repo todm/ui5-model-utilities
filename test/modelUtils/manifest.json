@@ -1,0 +1,13 @@
+{
+    "sap.app": {
+        "id": "test"
+    },
+    "sap.ui5": {
+        "rootView": {
+            "viewName": "test.pages.Main",
+            "type": "XML",
+            "async": true,
+            "id": "app"
+        }
+    }
+}

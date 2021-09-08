@@ -1,0 +1,4 @@
+specVersion: "2.3"
+type: library
+metadata:
+  name: ui5-model-utilities

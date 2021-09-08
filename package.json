@@ -1,0 +1,31 @@
+{
+  "name": "ui5-model-utilities",
+  "version": "1.0.0",
+  "description": "Adds utilies for UI5 Models",
+  "main": "./src/modelUtils/library.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ui5 serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todm/ui5-model-utilities.git"
+  },
+  "keywords": [
+    "ui5",
+    "model",
+    "accessor",
+    "class"
+  ],
+  "author": "todm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/todm/ui5-model-utilities/issues"
+  },
+  "homepage": "https://github.com/todm/ui5-model-utilities#readme",
+  "devDependencies": {
+    "@ui5/cli": "^2.12.1"
+  }
+}
